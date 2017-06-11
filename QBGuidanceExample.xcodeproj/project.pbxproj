@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D3301FF1EED70F700EBF56C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3301FE1EED70F700EBF56C /* main.m */; };
+		3D3302021EED70F700EBF56C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3302011EED70F700EBF56C /* AppDelegate.m */; };
+		3D3302051EED70F700EBF56C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3302041EED70F700EBF56C /* ViewController.m */; };
+		3D3302081EED70F700EBF56C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3302061EED70F700EBF56C /* Main.storyboard */; };
+		3D33020A1EED70F700EBF56C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D3302091EED70F700EBF56C /* Assets.xcassets */; };
+		3D33020D1EED70F700EBF56C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D33020B1EED70F700EBF56C /* LaunchScreen.storyboard */; };
+		3D3302181EED70F700EBF56C /* QBGuidanceExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3302171EED70F700EBF56C /* QBGuidanceExampleTests.m */; };
+		3D3302231EED70F700EBF56C /* QBGuidanceExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3302221EED70F700EBF56C /* QBGuidanceExampleUITests.m */; };
+		3D3302381EED713600EBF56C /* QBGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3302321EED713600EBF56C /* QBGuideView.m */; };
+		3D3302391EED713600EBF56C /* default_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D3302341EED713600EBF56C /* default_1.png */; };
+		3D33023A1EED713600EBF56C /* default_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D3302351EED713600EBF56C /* default_2.png */; };
+		3D33023B1EED713600EBF56C /* default_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D3302361EED713600EBF56C /* default_3.png */; };
+		3D33023C1EED713700EBF56C /* default_pass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D3302371EED713600EBF56C /* default_pass@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D3302141EED70F700EBF56C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D3301F21EED70F700EBF56C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D3301F91EED70F700EBF56C;
+			remoteInfo = QBGuidanceExample;
+		};
+		3D33021F1EED70F700EBF56C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D3301F21EED70F700EBF56C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D3301F91EED70F700EBF56C;
+			remoteInfo = QBGuidanceExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D3301FA1EED70F700EBF56C /* QBGuidanceExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QBGuidanceExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D3301FE1EED70F700EBF56C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D3302001EED70F700EBF56C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D3302011EED70F700EBF56C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D3302031EED70F700EBF56C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3D3302041EED70F700EBF56C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D3302071EED70F700EBF56C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D3302091EED70F700EBF56C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D33020C1EED70F700EBF56C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D33020E1EED70F700EBF56C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D3302131EED70F700EBF56C /* QBGuidanceExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QBGuidanceExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D3302171EED70F700EBF56C /* QBGuidanceExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QBGuidanceExampleTests.m; sourceTree = "<group>"; };
+		3D3302191EED70F700EBF56C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D33021E1EED70F700EBF56C /* QBGuidanceExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QBGuidanceExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D3302221EED70F700EBF56C /* QBGuidanceExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QBGuidanceExampleUITests.m; sourceTree = "<group>"; };
+		3D3302241EED70F700EBF56C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D3302311EED713600EBF56C /* QBGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBGuideView.h; sourceTree = "<group>"; };
+		3D3302321EED713600EBF56C /* QBGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBGuideView.m; sourceTree = "<group>"; };
+		3D3302341EED713600EBF56C /* default_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_1.png; sourceTree = "<group>"; };
+		3D3302351EED713600EBF56C /* default_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_2.png; sourceTree = "<group>"; };
+		3D3302361EED713600EBF56C /* default_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_3.png; sourceTree = "<group>"; };
+		3D3302371EED713600EBF56C /* default_pass@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default_pass@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D3301F71EED70F700EBF56C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3302101EED70F700EBF56C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D33021B1EED70F700EBF56C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D3301F11EED70F700EBF56C = {
+			isa = PBXGroup;
+			children = (
+				3D3301FC1EED70F700EBF56C /* QBGuidanceExample */,
+				3D3302161EED70F700EBF56C /* QBGuidanceExampleTests */,
+				3D3302211EED70F700EBF56C /* QBGuidanceExampleUITests */,
+				3D3301FB1EED70F700EBF56C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D3301FB1EED70F700EBF56C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D3301FA1EED70F700EBF56C /* QBGuidanceExample.app */,
+				3D3302131EED70F700EBF56C /* QBGuidanceExampleTests.xctest */,
+				3D33021E1EED70F700EBF56C /* QBGuidanceExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D3301FC1EED70F700EBF56C /* QBGuidanceExample */ = {
+			isa = PBXGroup;
+			children = (
+				3D3302301EED713600EBF56C /* GuideVIew */,
+				3D3302331EED713600EBF56C /* Image */,
+				3D3302001EED70F700EBF56C /* AppDelegate.h */,
+				3D3302011EED70F700EBF56C /* AppDelegate.m */,
+				3D3302031EED70F700EBF56C /* ViewController.h */,
+				3D3302041EED70F700EBF56C /* ViewController.m */,
+				3D3302061EED70F700EBF56C /* Main.storyboard */,
+				3D3302091EED70F700EBF56C /* Assets.xcassets */,
+				3D33020B1EED70F700EBF56C /* LaunchScreen.storyboard */,
+				3D33020E1EED70F700EBF56C /* Info.plist */,
+				3D3301FD1EED70F700EBF56C /* Supporting Files */,
+			);
+			path = QBGuidanceExample;
+			sourceTree = "<group>";
+		};
+		3D3301FD1EED70F700EBF56C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D3301FE1EED70F700EBF56C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D3302161EED70F700EBF56C /* QBGuidanceExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D3302171EED70F700EBF56C /* QBGuidanceExampleTests.m */,
+				3D3302191EED70F700EBF56C /* Info.plist */,
+			);
+			path = QBGuidanceExampleTests;
+			sourceTree = "<group>";
+		};
+		3D3302211EED70F700EBF56C /* QBGuidanceExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D3302221EED70F700EBF56C /* QBGuidanceExampleUITests.m */,
+				3D3302241EED70F700EBF56C /* Info.plist */,
+			);
+			path = QBGuidanceExampleUITests;
+			sourceTree = "<group>";
+		};
+		3D3302301EED713600EBF56C /* GuideVIew */ = {
+			isa = PBXGroup;
+			children = (
+				3D3302311EED713600EBF56C /* QBGuideView.h */,
+				3D3302321EED713600EBF56C /* QBGuideView.m */,
+			);
+			path = GuideVIew;
+			sourceTree = "<group>";
+		};
+		3D3302331EED713600EBF56C /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				3D3302341EED713600EBF56C /* default_1.png */,
+				3D3302351EED713600EBF56C /* default_2.png */,
+				3D3302361EED713600EBF56C /* default_3.png */,
+				3D3302371EED713600EBF56C /* default_pass@2x.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D3301F91EED70F700EBF56C /* QBGuidanceExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D3302271EED70F700EBF56C /* Build configuration list for PBXNativeTarget "QBGuidanceExample" */;
+			buildPhases = (
+				3D3301F61EED70F700EBF56C /* Sources */,
+				3D3301F71EED70F700EBF56C /* Frameworks */,
+				3D3301F81EED70F700EBF56C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QBGuidanceExample;
+			productName = QBGuidanceExample;
+			productReference = 3D3301FA1EED70F700EBF56C /* QBGuidanceExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D3302121EED70F700EBF56C /* QBGuidanceExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D33022A1EED70F700EBF56C /* Build configuration list for PBXNativeTarget "QBGuidanceExampleTests" */;
+			buildPhases = (
+				3D33020F1EED70F700EBF56C /* Sources */,
+				3D3302101EED70F700EBF56C /* Frameworks */,
+				3D3302111EED70F700EBF56C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D3302151EED70F700EBF56C /* PBXTargetDependency */,
+			);
+			name = QBGuidanceExampleTests;
+			productName = QBGuidanceExampleTests;
+			productReference = 3D3302131EED70F700EBF56C /* QBGuidanceExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D33021D1EED70F700EBF56C /* QBGuidanceExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D33022D1EED70F700EBF56C /* Build configuration list for PBXNativeTarget "QBGuidanceExampleUITests" */;
+			buildPhases = (
+				3D33021A1EED70F700EBF56C /* Sources */,
+				3D33021B1EED70F700EBF56C /* Frameworks */,
+				3D33021C1EED70F700EBF56C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D3302201EED70F700EBF56C /* PBXTargetDependency */,
+			);
+			name = QBGuidanceExampleUITests;
+			productName = QBGuidanceExampleUITests;
+			productReference = 3D33021E1EED70F700EBF56C /* QBGuidanceExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D3301F21EED70F700EBF56C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = wangqibin;
+				TargetAttributes = {
+					3D3301F91EED70F700EBF56C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					3D3302121EED70F700EBF56C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3D3301F91EED70F700EBF56C;
+					};
+					3D33021D1EED70F700EBF56C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3D3301F91EED70F700EBF56C;
+					};
+				};
+			};
+			buildConfigurationList = 3D3301F51EED70F700EBF56C /* Build configuration list for PBXProject "QBGuidanceExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D3301F11EED70F700EBF56C;
+			productRefGroup = 3D3301FB1EED70F700EBF56C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D3301F91EED70F700EBF56C /* QBGuidanceExample */,
+				3D3302121EED70F700EBF56C /* QBGuidanceExampleTests */,
+				3D33021D1EED70F700EBF56C /* QBGuidanceExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D3301F81EED70F700EBF56C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D33020D1EED70F700EBF56C /* LaunchScreen.storyboard in Resources */,
+				3D3302391EED713600EBF56C /* default_1.png in Resources */,
+				3D33023A1EED713600EBF56C /* default_2.png in Resources */,
+				3D33020A1EED70F700EBF56C /* Assets.xcassets in Resources */,
+				3D3302081EED70F700EBF56C /* Main.storyboard in Resources */,
+				3D33023C1EED713700EBF56C /* default_pass@2x.png in Resources */,
+				3D33023B1EED713600EBF56C /* default_3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3302111EED70F700EBF56C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D33021C1EED70F700EBF56C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D3301F61EED70F700EBF56C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D3302381EED713600EBF56C /* QBGuideView.m in Sources */,
+				3D3302051EED70F700EBF56C /* ViewController.m in Sources */,
+				3D3302021EED70F700EBF56C /* AppDelegate.m in Sources */,
+				3D3301FF1EED70F700EBF56C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D33020F1EED70F700EBF56C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D3302181EED70F700EBF56C /* QBGuidanceExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D33021A1EED70F700EBF56C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D3302231EED70F700EBF56C /* QBGuidanceExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D3302151EED70F700EBF56C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D3301F91EED70F700EBF56C /* QBGuidanceExample */;
+			targetProxy = 3D3302141EED70F700EBF56C /* PBXContainerItemProxy */;
+		};
+		3D3302201EED70F700EBF56C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D3301F91EED70F700EBF56C /* QBGuidanceExample */;
+			targetProxy = 3D33021F1EED70F700EBF56C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D3302061EED70F700EBF56C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D3302071EED70F700EBF56C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D33020B1EED70F700EBF56C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D33020C1EED70F700EBF56C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D3302251EED70F700EBF56C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D3302261EED70F700EBF56C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D3302281EED70F700EBF56C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QBGuidanceExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangqibin.QBGuidanceExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3D3302291EED70F700EBF56C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QBGuidanceExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangqibin.QBGuidanceExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3D33022B1EED70F700EBF56C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QBGuidanceExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangqibin.QBGuidanceExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QBGuidanceExample.app/QBGuidanceExample";
+			};
+			name = Debug;
+		};
+		3D33022C1EED70F700EBF56C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QBGuidanceExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangqibin.QBGuidanceExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QBGuidanceExample.app/QBGuidanceExample";
+			};
+			name = Release;
+		};
+		3D33022E1EED70F700EBF56C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QBGuidanceExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangqibin.QBGuidanceExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QBGuidanceExample;
+			};
+			name = Debug;
+		};
+		3D33022F1EED70F700EBF56C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QBGuidanceExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangqibin.QBGuidanceExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QBGuidanceExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D3301F51EED70F700EBF56C /* Build configuration list for PBXProject "QBGuidanceExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3302251EED70F700EBF56C /* Debug */,
+				3D3302261EED70F700EBF56C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D3302271EED70F700EBF56C /* Build configuration list for PBXNativeTarget "QBGuidanceExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3302281EED70F700EBF56C /* Debug */,
+				3D3302291EED70F700EBF56C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D33022A1EED70F700EBF56C /* Build configuration list for PBXNativeTarget "QBGuidanceExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D33022B1EED70F700EBF56C /* Debug */,
+				3D33022C1EED70F700EBF56C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D33022D1EED70F700EBF56C /* Build configuration list for PBXNativeTarget "QBGuidanceExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D33022E1EED70F700EBF56C /* Debug */,
+				3D33022F1EED70F700EBF56C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D3301F21EED70F700EBF56C /* Project object */;
+}
